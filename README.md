@@ -1,7 +1,5 @@
 > 本文仿照新浪微博/QQ空间实现了滑动自动播放视频的功能。
 
->本文来自个人博客：http://www.zhangliwei.date
-
 >如有疑问欢迎讨论,感谢您的关注。
 
 <!-- more --> 
@@ -86,9 +84,6 @@
  首先是根据总数循环判断 Item 是否有视频，如果有再利用Rect类获取视图在屏幕坐标中的可视区域。基本核心代码就这些是不是非常简单？
  
  ----
- 
-### 项目源码 [autovideoplay](https://github.com/zzzlw/autovideoplayer)
-### 技术博客 [Wells'Note](http://zhangliwei.date/)
 
 ### 视频播放器依赖
    	compile 'fm.jiecao:jiecaovideoplayer:4.6.3' 
